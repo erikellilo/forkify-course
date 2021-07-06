@@ -1,7 +1,5 @@
 // !import semua data dari model.js (state, function loadreceipe)
 import * as model from "./model.js";
-import "core-js/stable";
-import "regenerator-runtime/runtime";
 import recipeView from "./views/recipeView.js";
 import searchView from "./views/searchView.js";
 import resultView from "./views/resultView.js";
