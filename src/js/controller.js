@@ -124,6 +124,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const newFeature = function () {
+  console.log("welcome to the application ");
+};
+
 const init = function () {
   bookmarkView.addHandlerRenderBookmark(controlBookmark);
   // !subs-publish pattern
@@ -135,5 +139,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResult);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature();
 };
 init();
