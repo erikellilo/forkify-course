@@ -11,6 +11,7 @@ import addRecipeView from "./views/addRecipeView.js";
 import { MODEL_CLOSE_SEC } from "./config.js";
 
 const { async } = require("q");
+import { async } from "regenerator-runtime";
 
 // if (module.hot) {
 //   module.hot.accept();
