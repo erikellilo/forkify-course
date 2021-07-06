@@ -7,7 +7,6 @@ import { RES_PER_PAGE } from "./config";
 // import { sendJSON } from "./helper";
 import { KEY } from "./config";
 import { AJAX } from "./helper";
-import { async } from "regenerator-runtime";
 
 // *export state awal
 export const state = {
