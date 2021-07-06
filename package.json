@@ -12,7 +12,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@parcel/transformer-sass": "^2.0.0-nightly.646",
-    "parcel": "^2.0.0-nightly.644",
+    "parcel": "^2.0.0-beta.3.1",
     "sass": "^1.32.8"
   },
   "dependencies": {
