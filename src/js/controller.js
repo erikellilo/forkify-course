@@ -11,7 +11,6 @@ import addRecipeView from "./views/addRecipeView.js";
 import { MODEL_CLOSE_SEC } from "./config.js";
 
 const { async } = require("q");
-const { receiveMessageOnPort } = require("worker_threads");
 
 // if (module.hot) {
 //   module.hot.accept();
